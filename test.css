@@ -1,0 +1,39 @@
+html {
+    background: lightgrey;
+    height: 100%;
+    overflow: hidden;
+  }
+body{
+    font-family: 'Niramit', sans-serif; 
+    font-size: 1pt;
+    height: 100%;
+  background: whitesmoke;
+  overflow: scroll;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 3em;
+  font: 100%/1 serif;
+  border: 1px solid rgba(0,0,0,0.25)
+
+}
+.he{
+    font-size: 100pt;
+}
+
+  body::-webkit-scrollbar {
+      width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color:black; /* กำหนดสีของแถบเลื่อน scroll */
+    border-radius: 20px; /* กำหนดความโค้งมนของแถบเลื่อน scroll */
+ 
+  }
+  
+  
+  
