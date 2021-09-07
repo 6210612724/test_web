@@ -116,7 +116,7 @@ body section div.first ul li{
 	font-weight: bold;
 }
 
-body section div.intro p1{
+body section div.content p1{
 	position: absolute;
 	color: black;
 	font-size: 20px;
@@ -127,7 +127,7 @@ body section div.intro p1{
 
 }
 
-body section div.intro p{
+body section div.content p{
 	position: absolute;
 	color: black;
 	padding-top: 180px;
@@ -135,7 +135,7 @@ body section div.intro p{
 	
 
 }
-body section div.intro p3{
+body section div.content p3{
 	position: absolute;
 	color: white;
 	padding-top: 150px;
@@ -143,7 +143,7 @@ body section div.intro p3{
 	
 
 }
-body section div.intro p4{
+body section div.content p4{
 	position: absolute;
 	color: white;
 	font-size: 20px;
@@ -164,9 +164,48 @@ body section div.contact h{
 	
 }
 
+@media screen and (max-width: 1638px) {
+	body section div.first img{
+		height: 420px;
+	}
+
 	
+	body section div.content img{
+		height: 576px;
+	}
 
 
+
+}
+
+@media screen and (max-width: 1456px) {
+	body section div.first img{
+		height: 420px;
+	}
+
+	
+	body section div.content img{
+		height: 498px;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 736px) {
+	body section div.first img{
+		height: 420px;
+	}
+
+	
+	body section div.content img{
+		height: 420px;
+	}
+
+
+
+}
 
 /* Page */
 

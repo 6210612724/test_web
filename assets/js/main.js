@@ -77,8 +77,8 @@
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '481px',   '980px'  ],
-		
 			
+		
 			short:    '(min-aspect-ratio: 16/7)',
 			xshort:   '(min-aspect-ratio: 16/6)'
 		});
